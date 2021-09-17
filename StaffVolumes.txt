@@ -1,0 +1,321 @@
+
+{
+	Initialize "() { 
+        if (Sibelius.ProgramVersion > 20200600) {
+            SetInterpreterOption(TreatSingleCharacterAsString);
+            SetInterpreterOption(SupportHalfSemitonePitchValues);
+        } 
+    }"
+	Run "() {
+
+
+		// Set NthControl to false on Controls that are greater than the number of staves
+		// multiplied by 2 because each staff has 2 controls, the name and volume.
+
+		numberOfTextBoxes = 16; // will fail here if 8 instruments are added because conditions at line 18 have range <= 0
+                                //
+		firstUnneededControl = Sibelius.ActiveScore.StaffCount*2;
+
+		for i = firstUnneededControl to numberOfTextBoxes {
+				Sibelius.EnableNthControl(i, False);
+		}
+
+		// Get Instrument Names and Volumes save them to an array. Then reference those indeces and save into the special data variables
+		// Saving to array because according to docs pg. 22 - Elements that have not been initialized are null, and do not cause an error when referenced.
+		
+		instrumentNames = CreateSparseArray();
+		instrumentVolumes = CreateSparseArray();
+		
+
+		for each part in Sibelius.ActiveScore {
+				instrumentNames.Push(part.InstrumentName);
+				instrumentVolumes.Push(part.Volume);
+		}		
+		
+		name_00 = instrumentNames[00];
+		name_01 = instrumentNames[01];
+		name_02 = instrumentNames[02];
+		name_03 = instrumentNames[03];
+		name_04 = instrumentNames[04];
+		name_05 = instrumentNames[05];
+		name_06 = instrumentNames[06];
+		name_07 = instrumentNames[07];
+		
+		volume_00 = instrumentVolumes[00];
+		volume_01 = instrumentVolumes[01];
+		volume_02 = instrumentVolumes[02];
+		volume_03 = instrumentVolumes[03];
+		volume_04 = instrumentVolumes[04];
+		volume_05 = instrumentVolumes[05];
+		volume_06 = instrumentVolumes[06];
+		volume_07 = instrumentVolumes[07];
+		
+		result = Sibelius.ShowDialog(EnableDisableDialog, Self);
+
+		if (result) {
+			instrumentVolumes[00] = volume_00;
+			instrumentVolumes[01] = volume_01;
+			instrumentVolumes[02] = volume_02;
+			instrumentVolumes[03] = volume_03;
+			instrumentVolumes[04] = volume_04;
+			instrumentVolumes[05] = volume_05;
+			instrumentVolumes[06] = volume_06;
+			instrumentVolumes[07] = volume_07;
+
+			for i = 0 to Sibelius.ActiveScore.StaffCount {
+				Sibelius.ActiveScore.NthStaff(i+1).Volume = instrumentVolumes[i];
+			}
+		}
+
+		// we need to handle errors - values outside the rang 0-127 and non positive integers.
+		// we need to handle at least 20 staves
+		// It'd be nice to use a friendlier readout, instead of it saying all that edit selection stuff - is there a better interface option? 
+    }"
+	EnableDisableDialog "Dialog"
+	{
+		Title "Enable Disable"
+		X "0"
+		Y "0"
+		Width "400"
+		Height "400"
+		Controls
+		{
+			Edit
+			{
+				Title "Edit"
+				X "8"
+				Y "8"
+				Width "56"
+				Height "16"
+				ID "IDC_EDIT0"
+				Value "name_00"
+				Method
+				SetFocus "-1"
+			}
+			Edit
+			{
+				Title "Edit"
+				X "64"
+				Y "8"
+				Width "32"
+				Height "16"
+				ID "IDC_EDIT1"
+				Value "volume_00"
+				Method
+				SetFocus "0"
+			}
+			Edit
+			{
+				Title "Edit"
+				X "8"
+				Y "32"
+				Width "56"
+				Height "16"
+				ID "IDC_EDIT2"
+				Value "name_01"
+				Method
+				SetFocus "0"
+			}
+			Edit
+			{
+				Title "Edit"
+				X "64"
+				Y "32"
+				Width "32"
+				Height "16"
+				ID "IDC_EDIT3"
+				Value "volume_01"
+				Method
+				SetFocus "0"
+			}
+			Edit
+			{
+				Title "Edit"
+				X "8"
+				Y "64"
+				Width "56"
+				Height "16"
+				ID "IDC_EDIT4"
+				Value "name_02"
+				Method
+				SetFocus "0"
+			}
+			Edit
+			{
+				Title "Edit"
+				X "64"
+				Y "64"
+				Width "32"
+				Height "16"
+				ID "IDC_EDIT5"
+				Value "volume_02"
+				Method
+				SetFocus "0"
+			}
+			Edit
+			{
+				Title "Edit"
+				X "8"
+				Y "96"
+				Width "56"
+				Height "16"
+				ID "IDC_EDIT6"
+				Value "name_03"
+				Method
+				SetFocus "0"
+			}
+			Edit
+			{
+				Title "Edit"
+				X "64"
+				Y "96"
+				Width "32"
+				Height "16"
+				ID "IDC_EDIT7"
+				Value "volume_03"
+				Method
+				SetFocus "0"
+			}
+			Edit
+			{
+				Title
+				X "8"
+				Y "128"
+				Width "56"
+				Height "16"
+				ID "IDC_EDIT8"
+				Value "name_04"
+				Method
+				SetFocus "0"
+			}
+			Edit
+			{
+				Title "Edit"
+				X "64"
+				Y "128"
+				Width "32"
+				Height "16"
+				ID "IDC_EDIT9"
+				Value "volume_04"
+				Method
+				SetFocus "0"
+			}
+			Edit
+			{
+				Title "Edit"
+				X "8"
+				Y "160"
+				Width "56"
+				Height "16"
+				ID "IDC_EDIT9"
+				Value "name_05"
+				Method
+				SetFocus "0"
+			}
+			Edit
+			{
+				Title "Edit"
+				X "64"
+				Y "160"
+				Width "32"
+				Height "16"
+				ID "IDC_EDIT10"
+				Value "volume_05"
+				Method
+				SetFocus "0"
+			}
+			Edit
+			{
+				Title "Edit"
+				X "8"
+				Y "192"
+				Width "56"
+				Height "16"
+				ID "IDC_EDIT11"
+				Value "name_06"
+				Method
+				SetFocus "0"
+			}
+			Edit
+			{
+				Title "Edit"
+				X "64"
+				Y "192"
+				Width "32"
+				Height "16"
+				ID "IDC_EDIT12"
+				Value "volume_06"
+				Method
+				SetFocus "0"
+			}
+			Edit
+			{
+				Title "Edit"
+				X "8"
+				Y "224"
+				Width "56"
+				Height "16"
+				ID "IDC_EDIT12"
+				Value "name_07"
+				Method
+				SetFocus "0"
+			}
+			Edit
+			{
+				Title "Edit"
+				X "64"
+				Y "224"
+				Width "32"
+				Height "16"
+				ID "IDC_EDIT13"
+				Value "volume_07"
+				Method
+				SetFocus "0"
+			}
+			Button
+			{
+				Title "Cancel"
+				X "69"
+				Y "327"
+				Width "50"
+				Height "14"
+				DefaultButton "0"
+				ID "IDC_CANCEL_BUTTON"
+				Value
+				Method
+				SetFocus "0"
+				EndDialog "0"
+			}
+			Button
+			{
+				Title "OK"
+				X "130"
+				Y "327"
+				Width "50"
+				Height "14"
+				DefaultButton "1"
+				ID "IDC_OK_BUTTON"
+				Value
+				Method
+				SetFocus "0"
+				EndDialog "1"
+			}
+		}
+	}
+	name_00
+	name_01
+	name_02
+	name_03
+	name_04
+	name_05
+	name_06
+	name_07
+	volume_00
+	volume_01
+	volume_02
+	volume_03
+	volume_04
+	volume_05
+	volume_06
+	volume_07
+}
