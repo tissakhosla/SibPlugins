@@ -1,0 +1,1100 @@
+            Edit
+            {
+                Title "Edit"
+                X "8"
+                Y "8"
+                Width "56"
+                Height "16"
+                IDC_EDIT0
+                Value "name_0"
+                SetFocus "0"
+            }
+            Edit
+            {
+                Title "Edit"
+                X "64"
+                Y "8"
+                Width "32"
+                Height "16"
+                IDC_EDIT1
+                Value "volume_0"
+                SetFocus "0"
+            }
+            Edit
+            {
+                Title "Edit"
+                X "8"
+                Y "32"
+                Width "56"
+                Height "16"
+                IDC_EDIT2
+                Value "name_1"
+                SetFocus "0"
+            }
+            Edit
+            {
+                Title "Edit"
+                X "64"
+                Y "32"
+                Width "32"
+                Height "16"
+                IDC_EDIT3
+                Value "volume_1"
+                SetFocus "0"
+            }
+            Edit
+            {
+                Title "Edit"
+                X "8"
+                Y "56"
+                Width "56"
+                Height "16"
+                IDC_EDIT4
+                Value "name_2"
+                SetFocus "0"
+            }
+            Edit
+            {
+                Title "Edit"
+                X "64"
+                Y "56"
+                Width "32"
+                Height "16"
+                IDC_EDIT5
+                Value "volume_2"
+                SetFocus "0"
+            }
+            Edit
+            {
+                Title "Edit"
+                X "8"
+                Y "80"
+                Width "56"
+                Height "16"
+                IDC_EDIT6
+                Value "name_3"
+                SetFocus "0"
+            }
+            Edit
+            {
+                Title "Edit"
+                X "64"
+                Y "80"
+                Width "32"
+                Height "16"
+                IDC_EDIT7
+                Value "volume_3"
+                SetFocus "0"
+            }
+            Edit
+            {
+                Title "Edit"
+                X "8"
+                Y "104"
+                Width "56"
+                Height "16"
+                IDC_EDIT8
+                Value "name_4"
+                SetFocus "0"
+            }
+            Edit
+            {
+                Title "Edit"
+                X "64"
+                Y "104"
+                Width "32"
+                Height "16"
+                IDC_EDIT9
+                Value "volume_4"
+                SetFocus "0"
+            }
+            Edit
+            {
+                Title "Edit"
+                X "8"
+                Y "128"
+                Width "56"
+                Height "16"
+                IDC_EDIT10
+                Value "name_5"
+                SetFocus "0"
+            }
+            Edit
+            {
+                Title "Edit"
+                X "64"
+                Y "128"
+                Width "32"
+                Height "16"
+                IDC_EDIT11
+                Value "volume_5"
+                SetFocus "0"
+            }
+            Edit
+            {
+                Title "Edit"
+                X "8"
+                Y "152"
+                Width "56"
+                Height "16"
+                IDC_EDIT12
+                Value "name_6"
+                SetFocus "0"
+            }
+            Edit
+            {
+                Title "Edit"
+                X "64"
+                Y "152"
+                Width "32"
+                Height "16"
+                IDC_EDIT13
+                Value "volume_6"
+                SetFocus "0"
+            }
+            Edit
+            {
+                Title "Edit"
+                X "8"
+                Y "176"
+                Width "56"
+                Height "16"
+                IDC_EDIT14
+                Value "name_7"
+                SetFocus "0"
+            }
+            Edit
+            {
+                Title "Edit"
+                X "64"
+                Y "176"
+                Width "32"
+                Height "16"
+                IDC_EDIT15
+                Value "volume_7"
+                SetFocus "0"
+            }
+            Edit
+            {
+                Title "Edit"
+                X "8"
+                Y "200"
+                Width "56"
+                Height "16"
+                IDC_EDIT16
+                Value "name_8"
+                SetFocus "0"
+            }
+            Edit
+            {
+                Title "Edit"
+                X "64"
+                Y "200"
+                Width "32"
+                Height "16"
+                IDC_EDIT17
+                Value "volume_8"
+                SetFocus "0"
+            }
+            Edit
+            {
+                Title "Edit"
+                X "8"
+                Y "224"
+                Width "56"
+                Height "16"
+                IDC_EDIT18
+                Value "name_9"
+                SetFocus "0"
+            }
+            Edit
+            {
+                Title "Edit"
+                X "64"
+                Y "224"
+                Width "32"
+                Height "16"
+                IDC_EDIT19
+                Value "volume_9"
+                SetFocus "0"
+            }
+            Edit
+            {
+                Title "Edit"
+                X "104"
+                Y "8"
+                Width "56"
+                Height "16"
+                IDC_EDIT20
+                Value "name_10"
+                SetFocus "0"
+            }
+            Edit
+            {
+                Title "Edit"
+                X "160"
+                Y "8"
+                Width "32"
+                Height "16"
+                IDC_EDIT21
+                Value "volume_10"
+                SetFocus "0"
+            }
+            Edit
+            {
+                Title "Edit"
+                X "104"
+                Y "32"
+                Width "56"
+                Height "16"
+                IDC_EDIT22
+                Value "name_11"
+                SetFocus "0"
+            }
+            Edit
+            {
+                Title "Edit"
+                X "160"
+                Y "32"
+                Width "32"
+                Height "16"
+                IDC_EDIT23
+                Value "volume_11"
+                SetFocus "0"
+            }
+            Edit
+            {
+                Title "Edit"
+                X "104"
+                Y "56"
+                Width "56"
+                Height "16"
+                IDC_EDIT24
+                Value "name_12"
+                SetFocus "0"
+            }
+            Edit
+            {
+                Title "Edit"
+                X "160"
+                Y "56"
+                Width "32"
+                Height "16"
+                IDC_EDIT25
+                Value "volume_12"
+                SetFocus "0"
+            }
+            Edit
+            {
+                Title "Edit"
+                X "104"
+                Y "80"
+                Width "56"
+                Height "16"
+                IDC_EDIT26
+                Value "name_13"
+                SetFocus "0"
+            }
+            Edit
+            {
+                Title "Edit"
+                X "160"
+                Y "80"
+                Width "32"
+                Height "16"
+                IDC_EDIT27
+                Value "volume_13"
+                SetFocus "0"
+            }
+            Edit
+            {
+                Title "Edit"
+                X "104"
+                Y "104"
+                Width "56"
+                Height "16"
+                IDC_EDIT28
+                Value "name_14"
+                SetFocus "0"
+            }
+            Edit
+            {
+                Title "Edit"
+                X "160"
+                Y "104"
+                Width "32"
+                Height "16"
+                IDC_EDIT29
+                Value "volume_14"
+                SetFocus "0"
+            }
+            Edit
+            {
+                Title "Edit"
+                X "104"
+                Y "128"
+                Width "56"
+                Height "16"
+                IDC_EDIT30
+                Value "name_15"
+                SetFocus "0"
+            }
+            Edit
+            {
+                Title "Edit"
+                X "160"
+                Y "128"
+                Width "32"
+                Height "16"
+                IDC_EDIT31
+                Value "volume_15"
+                SetFocus "0"
+            }
+            Edit
+            {
+                Title "Edit"
+                X "104"
+                Y "152"
+                Width "56"
+                Height "16"
+                IDC_EDIT32
+                Value "name_16"
+                SetFocus "0"
+            }
+            Edit
+            {
+                Title "Edit"
+                X "160"
+                Y "152"
+                Width "32"
+                Height "16"
+                IDC_EDIT33
+                Value "volume_16"
+                SetFocus "0"
+            }
+            Edit
+            {
+                Title "Edit"
+                X "104"
+                Y "176"
+                Width "56"
+                Height "16"
+                IDC_EDIT34
+                Value "name_17"
+                SetFocus "0"
+            }
+            Edit
+            {
+                Title "Edit"
+                X "160"
+                Y "176"
+                Width "32"
+                Height "16"
+                IDC_EDIT35
+                Value "volume_17"
+                SetFocus "0"
+            }
+            Edit
+            {
+                Title "Edit"
+                X "104"
+                Y "200"
+                Width "56"
+                Height "16"
+                IDC_EDIT36
+                Value "name_18"
+                SetFocus "0"
+            }
+            Edit
+            {
+                Title "Edit"
+                X "160"
+                Y "200"
+                Width "32"
+                Height "16"
+                IDC_EDIT37
+                Value "volume_18"
+                SetFocus "0"
+            }
+            Edit
+            {
+                Title "Edit"
+                X "104"
+                Y "224"
+                Width "56"
+                Height "16"
+                IDC_EDIT38
+                Value "name_19"
+                SetFocus "0"
+            }
+            Edit
+            {
+                Title "Edit"
+                X "160"
+                Y "224"
+                Width "32"
+                Height "16"
+                IDC_EDIT39
+                Value "volume_19"
+                SetFocus "0"
+            }
+            Edit
+            {
+                Title "Edit"
+                X "200"
+                Y "8"
+                Width "56"
+                Height "16"
+                IDC_EDIT40
+                Value "name_20"
+                SetFocus "0"
+            }
+            Edit
+            {
+                Title "Edit"
+                X "256"
+                Y "8"
+                Width "32"
+                Height "16"
+                IDC_EDIT41
+                Value "volume_20"
+                SetFocus "0"
+            }
+            Edit
+            {
+                Title "Edit"
+                X "200"
+                Y "32"
+                Width "56"
+                Height "16"
+                IDC_EDIT42
+                Value "name_21"
+                SetFocus "0"
+            }
+            Edit
+            {
+                Title "Edit"
+                X "256"
+                Y "32"
+                Width "32"
+                Height "16"
+                IDC_EDIT43
+                Value "volume_21"
+                SetFocus "0"
+            }
+            Edit
+            {
+                Title "Edit"
+                X "200"
+                Y "56"
+                Width "56"
+                Height "16"
+                IDC_EDIT44
+                Value "name_22"
+                SetFocus "0"
+            }
+            Edit
+            {
+                Title "Edit"
+                X "256"
+                Y "56"
+                Width "32"
+                Height "16"
+                IDC_EDIT45
+                Value "volume_22"
+                SetFocus "0"
+            }
+            Edit
+            {
+                Title "Edit"
+                X "200"
+                Y "80"
+                Width "56"
+                Height "16"
+                IDC_EDIT46
+                Value "name_23"
+                SetFocus "0"
+            }
+            Edit
+            {
+                Title "Edit"
+                X "256"
+                Y "80"
+                Width "32"
+                Height "16"
+                IDC_EDIT47
+                Value "volume_23"
+                SetFocus "0"
+            }
+            Edit
+            {
+                Title "Edit"
+                X "200"
+                Y "104"
+                Width "56"
+                Height "16"
+                IDC_EDIT48
+                Value "name_24"
+                SetFocus "0"
+            }
+            Edit
+            {
+                Title "Edit"
+                X "256"
+                Y "104"
+                Width "32"
+                Height "16"
+                IDC_EDIT49
+                Value "volume_24"
+                SetFocus "0"
+            }
+            Edit
+            {
+                Title "Edit"
+                X "200"
+                Y "128"
+                Width "56"
+                Height "16"
+                IDC_EDIT50
+                Value "name_25"
+                SetFocus "0"
+            }
+            Edit
+            {
+                Title "Edit"
+                X "256"
+                Y "128"
+                Width "32"
+                Height "16"
+                IDC_EDIT51
+                Value "volume_25"
+                SetFocus "0"
+            }
+            Edit
+            {
+                Title "Edit"
+                X "200"
+                Y "152"
+                Width "56"
+                Height "16"
+                IDC_EDIT52
+                Value "name_26"
+                SetFocus "0"
+            }
+            Edit
+            {
+                Title "Edit"
+                X "256"
+                Y "152"
+                Width "32"
+                Height "16"
+                IDC_EDIT53
+                Value "volume_26"
+                SetFocus "0"
+            }
+            Edit
+            {
+                Title "Edit"
+                X "200"
+                Y "176"
+                Width "56"
+                Height "16"
+                IDC_EDIT54
+                Value "name_27"
+                SetFocus "0"
+            }
+            Edit
+            {
+                Title "Edit"
+                X "256"
+                Y "176"
+                Width "32"
+                Height "16"
+                IDC_EDIT55
+                Value "volume_27"
+                SetFocus "0"
+            }
+            Edit
+            {
+                Title "Edit"
+                X "200"
+                Y "200"
+                Width "56"
+                Height "16"
+                IDC_EDIT56
+                Value "name_28"
+                SetFocus "0"
+            }
+            Edit
+            {
+                Title "Edit"
+                X "256"
+                Y "200"
+                Width "32"
+                Height "16"
+                IDC_EDIT57
+                Value "volume_28"
+                SetFocus "0"
+            }
+            Edit
+            {
+                Title "Edit"
+                X "200"
+                Y "224"
+                Width "56"
+                Height "16"
+                IDC_EDIT58
+                Value "name_29"
+                SetFocus "0"
+            }
+            Edit
+            {
+                Title "Edit"
+                X "256"
+                Y "224"
+                Width "32"
+                Height "16"
+                IDC_EDIT59
+                Value "volume_29"
+                SetFocus "0"
+            }
+            Edit
+            {
+                Title "Edit"
+                X "296"
+                Y "8"
+                Width "56"
+                Height "16"
+                IDC_EDIT60
+                Value "name_30"
+                SetFocus "0"
+            }
+            Edit
+            {
+                Title "Edit"
+                X "352"
+                Y "8"
+                Width "32"
+                Height "16"
+                IDC_EDIT61
+                Value "volume_30"
+                SetFocus "0"
+            }
+            Edit
+            {
+                Title "Edit"
+                X "296"
+                Y "32"
+                Width "56"
+                Height "16"
+                IDC_EDIT62
+                Value "name_31"
+                SetFocus "0"
+            }
+            Edit
+            {
+                Title "Edit"
+                X "352"
+                Y "32"
+                Width "32"
+                Height "16"
+                IDC_EDIT63
+                Value "volume_31"
+                SetFocus "0"
+            }
+            Edit
+            {
+                Title "Edit"
+                X "296"
+                Y "56"
+                Width "56"
+                Height "16"
+                IDC_EDIT64
+                Value "name_32"
+                SetFocus "0"
+            }
+            Edit
+            {
+                Title "Edit"
+                X "352"
+                Y "56"
+                Width "32"
+                Height "16"
+                IDC_EDIT65
+                Value "volume_32"
+                SetFocus "0"
+            }
+            Edit
+            {
+                Title "Edit"
+                X "296"
+                Y "80"
+                Width "56"
+                Height "16"
+                IDC_EDIT66
+                Value "name_33"
+                SetFocus "0"
+            }
+            Edit
+            {
+                Title "Edit"
+                X "352"
+                Y "80"
+                Width "32"
+                Height "16"
+                IDC_EDIT67
+                Value "volume_33"
+                SetFocus "0"
+            }
+            Edit
+            {
+                Title "Edit"
+                X "296"
+                Y "104"
+                Width "56"
+                Height "16"
+                IDC_EDIT68
+                Value "name_34"
+                SetFocus "0"
+            }
+            Edit
+            {
+                Title "Edit"
+                X "352"
+                Y "104"
+                Width "32"
+                Height "16"
+                IDC_EDIT69
+                Value "volume_34"
+                SetFocus "0"
+            }
+            Edit
+            {
+                Title "Edit"
+                X "296"
+                Y "128"
+                Width "56"
+                Height "16"
+                IDC_EDIT70
+                Value "name_35"
+                SetFocus "0"
+            }
+            Edit
+            {
+                Title "Edit"
+                X "352"
+                Y "128"
+                Width "32"
+                Height "16"
+                IDC_EDIT71
+                Value "volume_35"
+                SetFocus "0"
+            }
+            Edit
+            {
+                Title "Edit"
+                X "296"
+                Y "152"
+                Width "56"
+                Height "16"
+                IDC_EDIT72
+                Value "name_36"
+                SetFocus "0"
+            }
+            Edit
+            {
+                Title "Edit"
+                X "352"
+                Y "152"
+                Width "32"
+                Height "16"
+                IDC_EDIT73
+                Value "volume_36"
+                SetFocus "0"
+            }
+            Edit
+            {
+                Title "Edit"
+                X "296"
+                Y "176"
+                Width "56"
+                Height "16"
+                IDC_EDIT74
+                Value "name_37"
+                SetFocus "0"
+            }
+            Edit
+            {
+                Title "Edit"
+                X "352"
+                Y "176"
+                Width "32"
+                Height "16"
+                IDC_EDIT75
+                Value "volume_37"
+                SetFocus "0"
+            }
+            Edit
+            {
+                Title "Edit"
+                X "296"
+                Y "200"
+                Width "56"
+                Height "16"
+                IDC_EDIT76
+                Value "name_38"
+                SetFocus "0"
+            }
+            Edit
+            {
+                Title "Edit"
+                X "352"
+                Y "200"
+                Width "32"
+                Height "16"
+                IDC_EDIT77
+                Value "volume_38"
+                SetFocus "0"
+            }
+            Edit
+            {
+                Title "Edit"
+                X "296"
+                Y "224"
+                Width "56"
+                Height "16"
+                IDC_EDIT78
+                Value "name_39"
+                SetFocus "0"
+            }
+            Edit
+            {
+                Title "Edit"
+                X "352"
+                Y "224"
+                Width "32"
+                Height "16"
+                IDC_EDIT79
+                Value "volume_39"
+                SetFocus "0"
+            }
+            Edit
+            {
+                Title "Edit"
+                X "392"
+                Y "8"
+                Width "56"
+                Height "16"
+                IDC_EDIT80
+                Value "name_40"
+                SetFocus "0"
+            }
+            Edit
+            {
+                Title "Edit"
+                X "448"
+                Y "8"
+                Width "32"
+                Height "16"
+                IDC_EDIT81
+                Value "volume_40"
+                SetFocus "0"
+            }
+            Edit
+            {
+                Title "Edit"
+                X "392"
+                Y "32"
+                Width "56"
+                Height "16"
+                IDC_EDIT82
+                Value "name_41"
+                SetFocus "0"
+            }
+            Edit
+            {
+                Title "Edit"
+                X "448"
+                Y "32"
+                Width "32"
+                Height "16"
+                IDC_EDIT83
+                Value "volume_41"
+                SetFocus "0"
+            }
+            Edit
+            {
+                Title "Edit"
+                X "392"
+                Y "56"
+                Width "56"
+                Height "16"
+                IDC_EDIT84
+                Value "name_42"
+                SetFocus "0"
+            }
+            Edit
+            {
+                Title "Edit"
+                X "448"
+                Y "56"
+                Width "32"
+                Height "16"
+                IDC_EDIT85
+                Value "volume_42"
+                SetFocus "0"
+            }
+            Edit
+            {
+                Title "Edit"
+                X "392"
+                Y "80"
+                Width "56"
+                Height "16"
+                IDC_EDIT86
+                Value "name_43"
+                SetFocus "0"
+            }
+            Edit
+            {
+                Title "Edit"
+                X "448"
+                Y "80"
+                Width "32"
+                Height "16"
+                IDC_EDIT87
+                Value "volume_43"
+                SetFocus "0"
+            }
+            Edit
+            {
+                Title "Edit"
+                X "392"
+                Y "104"
+                Width "56"
+                Height "16"
+                IDC_EDIT88
+                Value "name_44"
+                SetFocus "0"
+            }
+            Edit
+            {
+                Title "Edit"
+                X "448"
+                Y "104"
+                Width "32"
+                Height "16"
+                IDC_EDIT89
+                Value "volume_44"
+                SetFocus "0"
+            }
+            Edit
+            {
+                Title "Edit"
+                X "392"
+                Y "128"
+                Width "56"
+                Height "16"
+                IDC_EDIT90
+                Value "name_45"
+                SetFocus "0"
+            }
+            Edit
+            {
+                Title "Edit"
+                X "448"
+                Y "128"
+                Width "32"
+                Height "16"
+                IDC_EDIT91
+                Value "volume_45"
+                SetFocus "0"
+            }
+            Edit
+            {
+                Title "Edit"
+                X "392"
+                Y "152"
+                Width "56"
+                Height "16"
+                IDC_EDIT92
+                Value "name_46"
+                SetFocus "0"
+            }
+            Edit
+            {
+                Title "Edit"
+                X "448"
+                Y "152"
+                Width "32"
+                Height "16"
+                IDC_EDIT93
+                Value "volume_46"
+                SetFocus "0"
+            }
+            Edit
+            {
+                Title "Edit"
+                X "392"
+                Y "176"
+                Width "56"
+                Height "16"
+                IDC_EDIT94
+                Value "name_47"
+                SetFocus "0"
+            }
+            Edit
+            {
+                Title "Edit"
+                X "448"
+                Y "176"
+                Width "32"
+                Height "16"
+                IDC_EDIT95
+                Value "volume_47"
+                SetFocus "0"
+            }
+            Edit
+            {
+                Title "Edit"
+                X "392"
+                Y "200"
+                Width "56"
+                Height "16"
+                IDC_EDIT96
+                Value "name_48"
+                SetFocus "0"
+            }
+            Edit
+            {
+                Title "Edit"
+                X "448"
+                Y "200"
+                Width "32"
+                Height "16"
+                IDC_EDIT97
+                Value "volume_48"
+                SetFocus "0"
+            }
+            Edit
+            {
+                Title "Edit"
+                X "392"
+                Y "224"
+                Width "56"
+                Height "16"
+                IDC_EDIT98
+                Value "name_49"
+                SetFocus "0"
+            }
+            Edit
+            {
+                Title "Edit"
+                X "448"
+                Y "224"
+                Width "32"
+                Height "16"
+                IDC_EDIT99
+                Value "volume_49"
+                SetFocus "0"
+            }

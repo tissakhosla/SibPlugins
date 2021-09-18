@@ -1,0 +1,508 @@
+name_0 = instrumentNames[0];
+name_1 = instrumentNames[1];
+name_2 = instrumentNames[2];
+name_3 = instrumentNames[3];
+name_4 = instrumentNames[4];
+name_5 = instrumentNames[5];
+name_6 = instrumentNames[6];
+name_7 = instrumentNames[7];
+name_8 = instrumentNames[8];
+name_9 = instrumentNames[9];
+name_10 = instrumentNames[10];
+name_11 = instrumentNames[11];
+name_12 = instrumentNames[12];
+name_13 = instrumentNames[13];
+name_14 = instrumentNames[14];
+name_15 = instrumentNames[15];
+name_16 = instrumentNames[16];
+name_17 = instrumentNames[17];
+name_18 = instrumentNames[18];
+name_19 = instrumentNames[19];
+name_20 = instrumentNames[20];
+name_21 = instrumentNames[21];
+name_22 = instrumentNames[22];
+name_23 = instrumentNames[23];
+name_24 = instrumentNames[24];
+name_25 = instrumentNames[25];
+name_26 = instrumentNames[26];
+name_27 = instrumentNames[27];
+name_28 = instrumentNames[28];
+name_29 = instrumentNames[29];
+name_30 = instrumentNames[30];
+name_31 = instrumentNames[31];
+name_32 = instrumentNames[32];
+name_33 = instrumentNames[33];
+name_34 = instrumentNames[34];
+name_35 = instrumentNames[35];
+name_36 = instrumentNames[36];
+name_37 = instrumentNames[37];
+name_38 = instrumentNames[38];
+name_39 = instrumentNames[39];
+name_40 = instrumentNames[40];
+name_41 = instrumentNames[41];
+name_42 = instrumentNames[42];
+name_43 = instrumentNames[43];
+name_44 = instrumentNames[44];
+name_45 = instrumentNames[45];
+name_46 = instrumentNames[46];
+name_47 = instrumentNames[47];
+name_48 = instrumentNames[48];
+name_49 = instrumentNames[49];
+name_50 = instrumentNames[50];
+name_51 = instrumentNames[51];
+name_52 = instrumentNames[52];
+name_53 = instrumentNames[53];
+name_54 = instrumentNames[54];
+name_55 = instrumentNames[55];
+name_56 = instrumentNames[56];
+name_57 = instrumentNames[57];
+name_58 = instrumentNames[58];
+name_59 = instrumentNames[59];
+name_60 = instrumentNames[60];
+name_61 = instrumentNames[61];
+name_62 = instrumentNames[62];
+name_63 = instrumentNames[63];
+name_64 = instrumentNames[64];
+name_65 = instrumentNames[65];
+name_66 = instrumentNames[66];
+name_67 = instrumentNames[67];
+name_68 = instrumentNames[68];
+name_69 = instrumentNames[69];
+name_70 = instrumentNames[70];
+name_71 = instrumentNames[71];
+name_72 = instrumentNames[72];
+name_73 = instrumentNames[73];
+name_74 = instrumentNames[74];
+name_75 = instrumentNames[75];
+name_76 = instrumentNames[76];
+name_77 = instrumentNames[77];
+name_78 = instrumentNames[78];
+name_79 = instrumentNames[79];
+name_80 = instrumentNames[80];
+name_81 = instrumentNames[81];
+name_82 = instrumentNames[82];
+name_83 = instrumentNames[83];
+name_84 = instrumentNames[84];
+name_85 = instrumentNames[85];
+name_86 = instrumentNames[86];
+name_87 = instrumentNames[87];
+name_88 = instrumentNames[88];
+name_89 = instrumentNames[89];
+name_90 = instrumentNames[90];
+name_91 = instrumentNames[91];
+name_92 = instrumentNames[92];
+name_93 = instrumentNames[93];
+name_94 = instrumentNames[94];
+name_95 = instrumentNames[95];
+name_96 = instrumentNames[96];
+name_97 = instrumentNames[97];
+name_98 = instrumentNames[98];
+name_99 = instrumentNames[99];
+
+
+volume_0 = instrumentVolumes[0];
+volume_1 = instrumentVolumes[1];
+volume_2 = instrumentVolumes[2];
+volume_3 = instrumentVolumes[3];
+volume_4 = instrumentVolumes[4];
+volume_5 = instrumentVolumes[5];
+volume_6 = instrumentVolumes[6];
+volume_7 = instrumentVolumes[7];
+volume_8 = instrumentVolumes[8];
+volume_9 = instrumentVolumes[9];
+volume_10 = instrumentVolumes[10];
+volume_11 = instrumentVolumes[11];
+volume_12 = instrumentVolumes[12];
+volume_13 = instrumentVolumes[13];
+volume_14 = instrumentVolumes[14];
+volume_15 = instrumentVolumes[15];
+volume_16 = instrumentVolumes[16];
+volume_17 = instrumentVolumes[17];
+volume_18 = instrumentVolumes[18];
+volume_19 = instrumentVolumes[19];
+volume_20 = instrumentVolumes[20];
+volume_21 = instrumentVolumes[21];
+volume_22 = instrumentVolumes[22];
+volume_23 = instrumentVolumes[23];
+volume_24 = instrumentVolumes[24];
+volume_25 = instrumentVolumes[25];
+volume_26 = instrumentVolumes[26];
+volume_27 = instrumentVolumes[27];
+volume_28 = instrumentVolumes[28];
+volume_29 = instrumentVolumes[29];
+volume_30 = instrumentVolumes[30];
+volume_31 = instrumentVolumes[31];
+volume_32 = instrumentVolumes[32];
+volume_33 = instrumentVolumes[33];
+volume_34 = instrumentVolumes[34];
+volume_35 = instrumentVolumes[35];
+volume_36 = instrumentVolumes[36];
+volume_37 = instrumentVolumes[37];
+volume_38 = instrumentVolumes[38];
+volume_39 = instrumentVolumes[39];
+volume_40 = instrumentVolumes[40];
+volume_41 = instrumentVolumes[41];
+volume_42 = instrumentVolumes[42];
+volume_43 = instrumentVolumes[43];
+volume_44 = instrumentVolumes[44];
+volume_45 = instrumentVolumes[45];
+volume_46 = instrumentVolumes[46];
+volume_47 = instrumentVolumes[47];
+volume_48 = instrumentVolumes[48];
+volume_49 = instrumentVolumes[49];
+volume_50 = instrumentVolumes[50];
+volume_51 = instrumentVolumes[51];
+volume_52 = instrumentVolumes[52];
+volume_53 = instrumentVolumes[53];
+volume_54 = instrumentVolumes[54];
+volume_55 = instrumentVolumes[55];
+volume_56 = instrumentVolumes[56];
+volume_57 = instrumentVolumes[57];
+volume_58 = instrumentVolumes[58];
+volume_59 = instrumentVolumes[59];
+volume_60 = instrumentVolumes[60];
+volume_61 = instrumentVolumes[61];
+volume_62 = instrumentVolumes[62];
+volume_63 = instrumentVolumes[63];
+volume_64 = instrumentVolumes[64];
+volume_65 = instrumentVolumes[65];
+volume_66 = instrumentVolumes[66];
+volume_67 = instrumentVolumes[67];
+volume_68 = instrumentVolumes[68];
+volume_69 = instrumentVolumes[69];
+volume_70 = instrumentVolumes[70];
+volume_71 = instrumentVolumes[71];
+volume_72 = instrumentVolumes[72];
+volume_73 = instrumentVolumes[73];
+volume_74 = instrumentVolumes[74];
+volume_75 = instrumentVolumes[75];
+volume_76 = instrumentVolumes[76];
+volume_77 = instrumentVolumes[77];
+volume_78 = instrumentVolumes[78];
+volume_79 = instrumentVolumes[79];
+volume_80 = instrumentVolumes[80];
+volume_81 = instrumentVolumes[81];
+volume_82 = instrumentVolumes[82];
+volume_83 = instrumentVolumes[83];
+volume_84 = instrumentVolumes[84];
+volume_85 = instrumentVolumes[85];
+volume_86 = instrumentVolumes[86];
+volume_87 = instrumentVolumes[87];
+volume_88 = instrumentVolumes[88];
+volume_89 = instrumentVolumes[89];
+volume_90 = instrumentVolumes[90];
+volume_91 = instrumentVolumes[91];
+volume_92 = instrumentVolumes[92];
+volume_93 = instrumentVolumes[93];
+volume_94 = instrumentVolumes[94];
+volume_95 = instrumentVolumes[95];
+volume_96 = instrumentVolumes[96];
+volume_97 = instrumentVolumes[97];
+volume_98 = instrumentVolumes[98];
+volume_99 = instrumentVolumes[99];
+
+
+instrumentVolumes[0] = volume_0;
+instrumentVolumes[1] = volume_1;
+instrumentVolumes[2] = volume_2;
+instrumentVolumes[3] = volume_3;
+instrumentVolumes[4] = volume_4;
+instrumentVolumes[5] = volume_5;
+instrumentVolumes[6] = volume_6;
+instrumentVolumes[7] = volume_7;
+instrumentVolumes[8] = volume_8;
+instrumentVolumes[9] = volume_9;
+instrumentVolumes[10] = volume_10;
+instrumentVolumes[11] = volume_11;
+instrumentVolumes[12] = volume_12;
+instrumentVolumes[13] = volume_13;
+instrumentVolumes[14] = volume_14;
+instrumentVolumes[15] = volume_15;
+instrumentVolumes[16] = volume_16;
+instrumentVolumes[17] = volume_17;
+instrumentVolumes[18] = volume_18;
+instrumentVolumes[19] = volume_19;
+instrumentVolumes[20] = volume_20;
+instrumentVolumes[21] = volume_21;
+instrumentVolumes[22] = volume_22;
+instrumentVolumes[23] = volume_23;
+instrumentVolumes[24] = volume_24;
+instrumentVolumes[25] = volume_25;
+instrumentVolumes[26] = volume_26;
+instrumentVolumes[27] = volume_27;
+instrumentVolumes[28] = volume_28;
+instrumentVolumes[29] = volume_29;
+instrumentVolumes[30] = volume_30;
+instrumentVolumes[31] = volume_31;
+instrumentVolumes[32] = volume_32;
+instrumentVolumes[33] = volume_33;
+instrumentVolumes[34] = volume_34;
+instrumentVolumes[35] = volume_35;
+instrumentVolumes[36] = volume_36;
+instrumentVolumes[37] = volume_37;
+instrumentVolumes[38] = volume_38;
+instrumentVolumes[39] = volume_39;
+instrumentVolumes[40] = volume_40;
+instrumentVolumes[41] = volume_41;
+instrumentVolumes[42] = volume_42;
+instrumentVolumes[43] = volume_43;
+instrumentVolumes[44] = volume_44;
+instrumentVolumes[45] = volume_45;
+instrumentVolumes[46] = volume_46;
+instrumentVolumes[47] = volume_47;
+instrumentVolumes[48] = volume_48;
+instrumentVolumes[49] = volume_49;
+instrumentVolumes[50] = volume_50;
+instrumentVolumes[51] = volume_51;
+instrumentVolumes[52] = volume_52;
+instrumentVolumes[53] = volume_53;
+instrumentVolumes[54] = volume_54;
+instrumentVolumes[55] = volume_55;
+instrumentVolumes[56] = volume_56;
+instrumentVolumes[57] = volume_57;
+instrumentVolumes[58] = volume_58;
+instrumentVolumes[59] = volume_59;
+instrumentVolumes[60] = volume_60;
+instrumentVolumes[61] = volume_61;
+instrumentVolumes[62] = volume_62;
+instrumentVolumes[63] = volume_63;
+instrumentVolumes[64] = volume_64;
+instrumentVolumes[65] = volume_65;
+instrumentVolumes[66] = volume_66;
+instrumentVolumes[67] = volume_67;
+instrumentVolumes[68] = volume_68;
+instrumentVolumes[69] = volume_69;
+instrumentVolumes[70] = volume_70;
+instrumentVolumes[71] = volume_71;
+instrumentVolumes[72] = volume_72;
+instrumentVolumes[73] = volume_73;
+instrumentVolumes[74] = volume_74;
+instrumentVolumes[75] = volume_75;
+instrumentVolumes[76] = volume_76;
+instrumentVolumes[77] = volume_77;
+instrumentVolumes[78] = volume_78;
+instrumentVolumes[79] = volume_79;
+instrumentVolumes[80] = volume_80;
+instrumentVolumes[81] = volume_81;
+instrumentVolumes[82] = volume_82;
+instrumentVolumes[83] = volume_83;
+instrumentVolumes[84] = volume_84;
+instrumentVolumes[85] = volume_85;
+instrumentVolumes[86] = volume_86;
+instrumentVolumes[87] = volume_87;
+instrumentVolumes[88] = volume_88;
+instrumentVolumes[89] = volume_89;
+instrumentVolumes[90] = volume_90;
+instrumentVolumes[91] = volume_91;
+instrumentVolumes[92] = volume_92;
+instrumentVolumes[93] = volume_93;
+instrumentVolumes[94] = volume_94;
+instrumentVolumes[95] = volume_95;
+instrumentVolumes[96] = volume_96;
+instrumentVolumes[97] = volume_97;
+instrumentVolumes[98] = volume_98;
+instrumentVolumes[99] = volume_99;
+
+
+name_0
+name_1
+name_2
+name_3
+name_4
+name_5
+name_6
+name_7
+name_8
+name_9
+name_10
+name_11
+name_12
+name_13
+name_14
+name_15
+name_16
+name_17
+name_18
+name_19
+name_20
+name_21
+name_22
+name_23
+name_24
+name_25
+name_26
+name_27
+name_28
+name_29
+name_30
+name_31
+name_32
+name_33
+name_34
+name_35
+name_36
+name_37
+name_38
+name_39
+name_40
+name_41
+name_42
+name_43
+name_44
+name_45
+name_46
+name_47
+name_48
+name_49
+name_50
+name_51
+name_52
+name_53
+name_54
+name_55
+name_56
+name_57
+name_58
+name_59
+name_60
+name_61
+name_62
+name_63
+name_64
+name_65
+name_66
+name_67
+name_68
+name_69
+name_70
+name_71
+name_72
+name_73
+name_74
+name_75
+name_76
+name_77
+name_78
+name_79
+name_80
+name_81
+name_82
+name_83
+name_84
+name_85
+name_86
+name_87
+name_88
+name_89
+name_90
+name_91
+name_92
+name_93
+name_94
+name_95
+name_96
+name_97
+name_98
+name_99
+
+
+volume_0
+volume_1
+volume_2
+volume_3
+volume_4
+volume_5
+volume_6
+volume_7
+volume_8
+volume_9
+volume_10
+volume_11
+volume_12
+volume_13
+volume_14
+volume_15
+volume_16
+volume_17
+volume_18
+volume_19
+volume_20
+volume_21
+volume_22
+volume_23
+volume_24
+volume_25
+volume_26
+volume_27
+volume_28
+volume_29
+volume_30
+volume_31
+volume_32
+volume_33
+volume_34
+volume_35
+volume_36
+volume_37
+volume_38
+volume_39
+volume_40
+volume_41
+volume_42
+volume_43
+volume_44
+volume_45
+volume_46
+volume_47
+volume_48
+volume_49
+volume_50
+volume_51
+volume_52
+volume_53
+volume_54
+volume_55
+volume_56
+volume_57
+volume_58
+volume_59
+volume_60
+volume_61
+volume_62
+volume_63
+volume_64
+volume_65
+volume_66
+volume_67
+volume_68
+volume_69
+volume_70
+volume_71
+volume_72
+volume_73
+volume_74
+volume_75
+volume_76
+volume_77
+volume_78
+volume_79
+volume_80
+volume_81
+volume_82
+volume_83
+volume_84
+volume_85
+volume_86
+volume_87
+volume_88
+volume_89
+volume_90
+volume_91
+volume_92
+volume_93
+volume_94
+volume_95
+volume_96
+volume_97
+volume_98
+volume_99
