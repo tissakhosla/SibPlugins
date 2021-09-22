@@ -8,10 +8,8 @@
 
 		AddToPluginsMenu(_PluginMenuName, 'Run');
     }"
-
-    _PluginMenuName "Staff Levels"
+	_PluginMenuName "Staff Levels"
 	_VersionText "Version 2"
-
 	Run "() {
 
 

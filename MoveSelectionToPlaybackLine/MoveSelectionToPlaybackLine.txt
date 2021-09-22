@@ -9,25 +9,27 @@
         AddToPluginsMenu(_PluginMenuName, 'Run');
          
     }"
-    
-    _PluginMenuName "Move Selection to Playhead"
+	_PluginMenuName "Play Position"
 	_VersionText "Version 1"
-	
-    Run "() {
+	Run "() {
         
         score = Sibelius.ActiveScore;
         topStaff = score.NthStaff(1);
         currentBarNumber = Sibelius.ActiveScore.CurrentPlaybackPosBar;
         bar = topStaff.NthBar(currentBarNumber);
-        notesInBar = CreateSparseArray();
+        notesOrItemsInBar = CreateSparseArray();
         
         for each NoteRest n in bar {
             if (not(n.NoteCount = 0)) {
-                notesInBar.Push(n);
+                notesOrItemsInBar.Push(n);
             }
         }
 
-        notesInBar[0].Select();
+        for each element in bar {
+            notesOrItemsInBar.Push(element);
+        }
+
+        notesOrItemsInBar[0].Select();
         Sibelius.MoveActiveViewToBar(currentBarNumber);
         Sibelius.MoveActiveViewToSelection();
 
