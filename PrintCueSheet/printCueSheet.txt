@@ -1,0 +1,37 @@
+
+{
+	Initialize "() {
+AddToPluginsMenu('Print Cue Sheet','Run');
+
+// The following enables the latest behavior for the ManuScript interpreter.
+// If you intend your plugin to run on previous versions of Sibelius where that functionality
+// didn't exist, you will likely have to revisit the following:
+if (Sibelius.ProgramVersion > 20200600) {
+    SetInterpreterOption(TreatSingleCharacterAsString);
+    SetInterpreterOption(SupportHalfSemitonePitchValues);
+} }"
+	Run "() {
+                score = Sibelius.ActiveScore;
+                topstaff = score.SystemStaff;
+                Trace('Key of: ' + topstaff.CurrentKeySignature(1).AsText);
+
+                for each measure in topstaff {    
+                    for each RehearsalMark elem in measure {
+                        Trace(measure.BarNumber + ' ' + elem.MarkAsText);
+                    }
+
+                    for each KeySignature elem in measure {
+                        Trace('Key Change:');
+                        Trace(elem.AsText);
+                        Trace(measure.BarNumber);
+                    }
+
+                    for each SystemTextItem elem in measure {
+                        Trace('System Text:');
+                        Trace(elem.Text);
+                        Trace(measure.BarNumber);
+                    }
+                }
+            }"
+}
+
