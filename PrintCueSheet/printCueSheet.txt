@@ -16,30 +16,34 @@ if (Sibelius.ProgramVersion > 20200600) {
                 Trace('Key:' & ' ' & sysstaff.InitialKeySignature.AsText);
 
                 for each measure in sysstaff {
-                    // TODOs:
-                    // measure num should only appear once per result
-                    // format output like 'num rl txt or key'
-                    // TimeSignature and Repeats still needed
+                    message = '';
 
                     for each RehearsalMark elem in measure {
-                        Trace(measure.BarNumber & ' ' & elem.MarkAsText);
+                        message = message & ' ' & elem.MarkAsText;
                     }
 
                     for each KeySignature elem in measure {
-                        Trace(measure.BarNumber & ' ' & elem.AsText);
+                        message = message & ' ' & elem.AsText;
                     }
                     
                     for each TimeSignature elem in measure {
-                        Trace(measure.BarNumber & ' ' & elem.Text);
+                        message = message & ' ' & elem.Text;
                     }
 
                     for each SystemTextItem elem in measure {
-                        Trace(measure.BarNumber & ' ' & elem.Text);
+                        message = message & ' ' & elem.Text;
                     }
 
                     for each SpecialBarline elem in measure {
-                        Trace(measure.BarNumber & ' ' & elem.BarlineType);
+                        if (elem.BarlineType = 'StartRepeat' or elem.BarlineType = 'EndRepeat' or elem.BarlineType = 'Final') {
+                            message = message & ' ' & elem.BarlineType;                            
+                        }
+                    }
+                
+                    if (message != '') {
+                        Trace(measure.BarNumber & ' ' & message);
                     }
                 }
             }"
 }
+
