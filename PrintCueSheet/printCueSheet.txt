@@ -12,12 +12,21 @@ if (Sibelius.ProgramVersion > 20200600) {
 } }"
 	Run "() {
                 score = Sibelius.ActiveScore;
+                Trace(utils.ExtractFileName(score.FileName));
+                
+                pickup = False;
                 sysstaff = score.SystemStaff;
+                
+                if (sysstaff.NthBar(1).Length != sysstaff.NthBar(2).Length) {
+                    pickup = True;
+                }
+
+
                 Trace('Key:' & ' ' & sysstaff.InitialKeySignature.AsText);
 
                 for each measure in sysstaff {
                     message = '';
-
+                    
                     for each RehearsalMark elem in measure {
                         message = message & ' ' & elem.MarkAsText;
                     }
@@ -27,23 +36,36 @@ if (Sibelius.ProgramVersion > 20200600) {
                     }
                     
                     for each TimeSignature elem in measure {
+                        message = message & ' ' & elem.Numerator & '/' & elem.Denominator;
+                    }
+
+                    for each Comment elem in measure {
                         message = message & ' ' & elem.Text;
                     }
 
                     for each SystemTextItem elem in measure {
-                        message = message & ' ' & elem.Text;
+                        if (elem.StyleAsText = 'Boxed system text' or elem.StyleAsText = 'Tempo' or elem.StyleAsText = 'Plain system text')  {
+                            message = message & ' ' & elem.Text;
+                        }
                     }
 
                     for each SpecialBarline elem in measure {
                         if (elem.BarlineType = 'StartRepeat' or elem.BarlineType = 'EndRepeat' or elem.BarlineType = 'Final') {
-                            message = message & ' ' & elem.BarlineType;                            
+                            
+                            linetype = utils.Replace(elem.BarlineType, 'Repeat', ' Repeat', True);
+                            message = message & ' ' & linetype;                            
                         }
                     }
-                
+                    
                     if (message != '') {
-                        Trace(measure.BarNumber & ' ' & message);
+                        barnum = measure.BarNumber;
+
+                        if (pickup) {
+                            barnum = barnum - 1;
+                        }
+
+                        Trace(barnum & ' ' & message);
                     }
                 }
             }"
 }
-
