@@ -32,7 +32,22 @@ if (Sibelius.ProgramVersion > 20200600) {
                     }
 
                     for each KeySignature elem in measure {
-                        message = message & ' ' & elem.AsText;
+                        // if elem.text string has 'b' or '#', replace it with 'flat' or 'sharp' respectively
+                        keymsg = '';
+                        
+                        if (utils.PatternCount('#', elem.AsText) > 0) {
+                            keymsg = utils.Replace(elem.AsText, '#', ' sharp', True);
+                        }
+
+                        if (utils.PatternCount('b', elem.AsText) > 0) {
+                            keymsg = utils.Replace(elem.AsText, 'b', ' flat', True);
+                        }
+
+                        if (utils.PatternCount('b', elem.AsText) = 0) {
+                            keymsg = elem.AsText;
+                        }
+
+                        message = message & ' ' & 'Key Change:' & ' ' & keymsg;
                     }
                     
                     for each TimeSignature elem in measure {
@@ -62,6 +77,10 @@ if (Sibelius.ProgramVersion > 20200600) {
 
                         if (pickup) {
                             barnum = barnum - 1;
+                        }
+
+                        if (utils.PatternCount('Key Change', message)) {
+                            barnum = barnum + 1;
                         }
 
                         Trace(barnum & ' ' & message);
