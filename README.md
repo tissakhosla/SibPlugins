@@ -58,3 +58,6 @@ Hey Sibelius! Your Mixer is totally inaccessible.
 This plugin opens a dialogue with instrument names and Staff Volumes as editable numbers. 
 ![image](https://github.com/user-attachments/assets/20b1e517-590e-4015-ae4b-9e51896a976f)
 
+### Need Custom Functionaluty in Sibelius? Drop me a line
+
+
