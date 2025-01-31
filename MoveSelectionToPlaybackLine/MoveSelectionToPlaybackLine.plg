@@ -1,0 +1,37 @@
+
+{
+	Initialize "() { 
+        if (Sibelius.ProgramVersion > 20200600) {
+            SetInterpreterOption(TreatSingleCharacterAsString);
+            SetInterpreterOption(SupportHalfSemitonePitchValues);
+        }
+
+        AddToPluginsMenu(_PluginMenuName, 'Run');
+         
+    }"
+	_PluginMenuName "Play Position"
+	_VersionText "Version 1"
+	Run "() {
+        
+        score = Sibelius.ActiveScore;
+        topStaff = score.NthStaff(1);
+        currentBarNumber = Sibelius.ActiveScore.CurrentPlaybackPosBar;
+        bar = topStaff.NthBar(currentBarNumber);
+        notesOrItemsInBar = CreateSparseArray();
+        
+        for each NoteRest n in bar {
+            if (not(n.NoteCount = 0)) {
+                notesOrItemsInBar.Push(n);
+            }
+        }
+
+        for each element in bar {
+            notesOrItemsInBar.Push(element);
+        }
+
+        notesOrItemsInBar[0].Select();
+        Sibelius.MoveActiveViewToBar(currentBarNumber);
+        Sibelius.MoveActiveViewToSelection();
+
+        }"
+}
